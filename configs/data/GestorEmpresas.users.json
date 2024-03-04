@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "65e53dc2fb50d1ec29a275b1"
+  },
+  "name": "Angel",
+  "email": "angel@kinal.org.com",
+  "password": "987654",
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e54498a33b1a8ef1fdb085"
+  },
+  "name": "Angel",
+  "email": "angel@kinal.org.com",
+  "password": "987654",
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e5449ba33b1a8ef1fdb088"
+  },
+  "name": "Angel",
+  "email": "angel@kinal.org.com",
+  "password": "987654",
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e5449ba33b1a8ef1fdb08b"
+  },
+  "name": "Angel",
+  "email": "angel@kinal.org.com",
+  "password": "987654",
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e546f77572c74319365957"
+  },
+  "name": "Angel",
+  "email": "angel@kinal.org.com",
+  "password": "987654",
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e54e2a78e8baa57453f38f"
+  },
+  "name": "Angel",
+  "email": "angel@kinal.org.com",
+  "password": "987654",
+  "status": true,
+  "__v": 0
+}]

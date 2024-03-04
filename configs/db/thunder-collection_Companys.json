@@ -1,0 +1,154 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Companys",
+    "dateExported": "2024-03-04T04:31:23.542Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1d721a48-df63-47f3-96fd-07a011e1465b",
+            "colId": "656978a3-6fe0-4629-ac08-9a3578bbca76",
+            "containerId": "",
+            "name": "newCompany",
+            "url": "http://localhost:3000/ControlEmpresas/v1/company/newCompany",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-04T03:24:32.914Z",
+            "modified": "2024-03-04T04:19:11.084Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1M2RjMmZiNTBkMWVjMjlhMjc1YjEiLCJpYXQiOjE3MDk1MjU4NjAsImV4cCI6MTcwOTUyOTQ2MH0.pDc1kFpB5mxw1XxRSNRP8fTOyo39cXEQaDeyvoTI-Bk"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Kinal\",\n  \"impact\": \"Educa\",\n  \"category\": \"educacion\",\n  \"years\": 63\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "317ba38d-b494-4397-9bbe-14e93716ab5b",
+            "colId": "656978a3-6fe0-4629-ac08-9a3578bbca76",
+            "containerId": "",
+            "name": "companyByYears",
+            "url": "http://localhost:3000/ControlEmpresas/v1/company/getCompany/years?startYear=63",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-04T03:29:30.492Z",
+            "modified": "2024-03-04T04:19:18.879Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1M2RjMmZiNTBkMWVjMjlhMjc1YjEiLCJpYXQiOjE3MDk1MjQzNDAsImV4cCI6MTcwOTUyNzk0MH0.q7n0HrB1WY-adgihQKDLcw3JBl8WUJXtnUNvtYMwj4g"
+                }
+            ],
+            "params": [
+                {
+                    "name": "startYear",
+                    "value": "63",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "2cc56dcb-1fad-40f4-8bd6-be542e1a482d",
+            "colId": "656978a3-6fe0-4629-ac08-9a3578bbca76",
+            "containerId": "",
+            "name": "companyA-Z",
+            "url": "http://localhost:3000/ControlEmpresas/v1/company/getCompany/A-Z",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-04T03:32:48.475Z",
+            "modified": "2024-03-04T03:53:01.133Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2a37164b-c76e-40ad-a819-5f799ab51052",
+            "colId": "656978a3-6fe0-4629-ac08-9a3578bbca76",
+            "containerId": "",
+            "name": "companyZ-A",
+            "url": "http://localhost:3000/ControlEmpresas/v1/company/getCompany/Z-A",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-03-04T03:34:00.243Z",
+            "modified": "2024-03-04T03:53:17.942Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "68ba33b6-8fd8-4e75-a766-94822c8c104f",
+            "colId": "656978a3-6fe0-4629-ac08-9a3578bbca76",
+            "containerId": "",
+            "name": "companyCategory",
+            "url": "http://localhost:3000/ControlEmpresas/v1/company/getCompany/category?category=educacion",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-03-04T03:35:03.150Z",
+            "modified": "2024-03-04T04:19:37.023Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1M2RjMmZiNTBkMWVjMjlhMjc1YjEiLCJpYXQiOjE3MDk1MjU2MDYsImV4cCI6MTcwOTUyOTIwNn0.5KriUMDhXyHRivZeNNzdXVKTrSA_5qEfjADTM8WfHF4"
+                }
+            ],
+            "params": [
+                {
+                    "name": "category",
+                    "value": "educacion",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "ab8cc43e-dba8-4fb2-9706-c8953964bdf8",
+            "colId": "656978a3-6fe0-4629-ac08-9a3578bbca76",
+            "containerId": "",
+            "name": "editCompany",
+            "url": "http://localhost:3000/ControlEmpresas/v1/company/editCompany",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2024-03-04T03:37:12.054Z",
+            "modified": "2024-03-04T04:24:23.365Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1M2RjMmZiNTBkMWVjMjlhMjc1YjEiLCJpYXQiOjE3MDk1MjYyMjMsImV4cCI6MTcwOTUyOTgyM30.XsDV-6yRVFuMrFUE3fA7oWiLsf6Mrawyt6MqbeujBJQ"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Bimbo\",\n  \"impact\": \"Hola\",\n  \"category\": \"educa\",\n  \"years\": 10\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1aebed32-0567-4a29-a685-ac54e0741755",
+            "colId": "656978a3-6fe0-4629-ac08-9a3578bbca76",
+            "containerId": "",
+            "name": "reportExcel",
+            "url": "http://localhost:3000/ControlEmpresas/v1/company/report",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-03-04T03:55:48.976Z",
+            "modified": "2024-03-04T04:28:37.210Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1M2RjMmZiNTBkMWVjMjlhMjc1YjEiLCJpYXQiOjE3MDk1MjY1MDgsImV4cCI6MTcwOTUzMDEwOH0.mIwHffmf4QjZysp6fjhBCMIBuzGSZprak3WiGfFornk"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

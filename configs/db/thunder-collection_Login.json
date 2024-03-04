@@ -1,0 +1,42 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Login",
+    "dateExported": "2024-03-04T04:31:11.331Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "03587286-12a7-4d71-9cbc-ca1a7edac2ae",
+            "colId": "fe620efc-bf3a-47d8-b1c5-efddbf143a61",
+            "containerId": "",
+            "name": "Login",
+            "url": "http://localhost:3000/ControlEmpresas/v1/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-04T03:15:15.327Z",
+            "modified": "2024-03-04T03:26:05.796Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"angel@kinal.org.com\",\n  \"password\": \"987654\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5679c812-0a3e-4601-8e9c-c59d2811b155",
+            "colId": "fe620efc-bf3a-47d8-b1c5-efddbf143a61",
+            "containerId": "",
+            "name": "user",
+            "url": "http://localhost:3000/ControlEmpresas/v1/user/viewUser",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-04T03:19:02.533Z",
+            "modified": "2024-03-04T03:19:30.950Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

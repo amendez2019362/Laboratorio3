@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "65e54b6e18913162552217e8"
+  },
+  "userId": {
+    "$oid": "65e53dc2fb50d1ec29a275b1"
+  },
+  "name": "Bimbo",
+  "impact": "Hola",
+  "years": 10,
+  "category": "educa",
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e54bbf18913162552217f4"
+  },
+  "userId": {
+    "$oid": "65e53dc2fb50d1ec29a275b1"
+  },
+  "name": "Kinal",
+  "impact": "Educa",
+  "years": 63,
+  "category": "educacion",
+  "status": true,
+  "__v": 0
+}]
